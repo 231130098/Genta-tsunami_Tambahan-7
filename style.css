@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3; /* Warna latar belakang */
+}
+
+header, main, nav, footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-color: #3498db; /* Warna header */
+    padding: 30px 0;
+}
+
+h1 {
+    color: #fff; /* Warna teks header */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Warna teks menu */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: #fff; /* Warna latar belakang konten */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.article-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.header-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
